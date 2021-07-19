@@ -42,6 +42,12 @@ public class WebportalController {
 	private static final String PENSION_AMOUNT = "pensionAmount";
 
 	double pensionAmount = 0.0d;
+	
+	
+	@GetMapping("/hello")
+	public String mychM(){
+	 return "Welcome in webPortal";
+	}
 
 	/**
 	 * The method at this end point retrieves pension detail
